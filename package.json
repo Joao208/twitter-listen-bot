@@ -1,0 +1,19 @@
+{
+  "name": "twitter_listen_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "js-logger": "^1.6.1",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.15",
+    "v2-twitter": "^1.0.8"
+  }
+}
