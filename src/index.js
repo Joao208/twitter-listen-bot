@@ -70,4 +70,4 @@ const sendTweet = async () => {
   }
 };
 
-cron.schedule("30 12 * * *", sendTweet); // All days 12:30
+cron.schedule("30 16 * * *", sendTweet); // All days 13:30
